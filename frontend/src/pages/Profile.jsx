@@ -35,7 +35,7 @@ const Profile = () => {
         formData.append("image",backendImage)
       }
     
-      let result = await  axios.put(`${serverUrl}/api/user/profile`,formData,{withCredentials:true})
+      let result = await axios.put(`${serverUrl}/api/user/profile`,formData,{withCredentials:true})
       setSaving(false)
       dispatch(userData(result.data))
       navigate("/")

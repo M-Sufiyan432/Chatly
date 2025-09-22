@@ -17,7 +17,6 @@ export const getCurrentUser = async(req,res)=>{
 export const editProfile = async(req,res)=>{
   try {
     
- 
     let {name} =req.body;
     let image;
     if(req.file){
