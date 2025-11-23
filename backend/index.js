@@ -14,7 +14,7 @@ const port = process.env.PORT || 8000;
 
 
 app.use(cors({
-  origin: "http://localhost:5173", // ✅ matches your frontend
+  origin: "https://chatly-frontend-f470.onrender.com", // ✅ matches your frontend
   credentials: true                // ✅ allows cookies
 }));
 
