@@ -10,7 +10,7 @@ import useOtherUsers from '../customHooks/getOtherUsers'
 import {io} from "socket.io-client"
 import { setOnlineUsers, setSocket } from './redux/userSlice'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://chatly-backend-20j2.onrender.com"
 
 const App = () => {
    useGetCurrentUser()
